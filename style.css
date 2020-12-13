@@ -1,15 +1,40 @@
 /*  Add your styling here */
 
+/* textarea:focus, input:focus{
+  outline: none;
+}  */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 70px;
+}
+.navbar {
+  padding-top: 0;
+}
 
 .nav-logo {
   padding: 0;
-  width: 200px;
-  height: 200px;
+  width: 130px;
+  height: 100px;
+}
+
+span.navbar-toggler-icon {
+color: white;
+}
+.navbackground {
+  background-color: #fcd5ca;
 }
 .container-fluid {
   /* text-align: center; */
   text-align: justify;
   padding: 15px;
+}
+
+.text {
+  width: 96%;
 }
 
 .cake-images {
@@ -28,17 +53,17 @@
 /* footer  */
 
 .footer-distributed {
-  background-color: black;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fcd5ca;
+  /* box-shadow: 0 1px 1px #0fc0f0; */
   box-sizing: border-box;
   width: 100%;
   text-align: left;
   font: normal 16px sans-serif;
-  padding: 45px 50px;
+  padding: 45px 30px;
 }
 
 .footer-distributed .footer-left p {
-  color: #8f9296;
+  color: white;
   font-size: 14px;
   margin: 0;
 }
@@ -77,6 +102,7 @@
 .footer-distributed .footer-right {
   float: right;
   margin-top: 6px;
+  margin-left: 16px;
   max-width: 180px;
 }
 
@@ -84,7 +110,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-color: #33383b;
+  background-color: #fcd5ca;
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
@@ -101,4 +127,15 @@
 
 .footer-distributed p.footer-links a:hover {
   text-decoration: underline;
+}
+
+.fa-twitter:before {
+  color:  #ffffff;
+}
+.fa-facebook:before {
+  color:  #ffffff;
+}
+
+.fa-instagram:before {
+  color: #ffffff;
 }
