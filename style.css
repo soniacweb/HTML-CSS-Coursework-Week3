@@ -37,12 +37,25 @@ color: white;
   width: 96%;
 }
 
+p.tagline {
+  color: white;
+  text-align: right;
+  width: 250px;
+  font-size: 17px;
+  margin-left: 119px;
+}
 .cake-images {
   width: 155px;
   height: 105px;
   margin: 5px;
   margin-bottom: 30px;
   display:inline-block;
+}
+
+.cake-images:hover {
+  transform: scale(1.1);
+  transition: all .4s ease-in-out;
+  -webkit-transform: scale(1.1);
 }
 
 .images-container {
@@ -138,4 +151,16 @@ color: white;
 
 .fa-instagram:before {
   color: #ffffff;
+}
+
+@media screen and (min-width: 540px) {
+  /* body {
+   
+  } */
+}
+
+@media screen and (min-width: 900px) {
+  /* body {
+   
+  } */
 }
