@@ -4,7 +4,7 @@ The aim of this exercise is to create a **responsive webpage** showcasing your c
 
 Two wireframes are provided down below (scroll to the bottom).
 
-My version is found <a href="www.cakesiteproject.netlify.app">here</a>
+My version is found <a href="https://cakesiteproject.netlify.app/">here</a>
 ## Task
 
  - **Fork and clone** this repo.
