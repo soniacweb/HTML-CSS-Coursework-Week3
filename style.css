@@ -157,6 +157,13 @@ div.middle-image {
   max-width: 180px;
 }
 
+a.link-1 {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+
 .footer-distributed .footer-right a {
   display: inline-block;
   width: 35px;
@@ -169,6 +176,13 @@ div.middle-image {
   line-height: 35px;
   margin-left: 3px;
   transition: all 0.25s;
+}
+
+.footnote {
+  /* margin: 0 auto; */
+  text-align: center;
+  margin-top: 90px;
+  color: white;
 }
 
 .footer-distributed .footer-right a:hover {
@@ -237,11 +251,14 @@ div.middle-image {
 
   .nav-link {
     margin: 30px;
+    font-size: 20px;
+    color: black;
   }
 
     .nav1 {
       display:none;
     }
+
   .hidden.navbar {
     display: block;
     justify-content: left;
@@ -281,13 +298,53 @@ display:none;
     }
        
       img.cake-images {
-        width: 373px;
-        height: 280px;
-        margin: 15px 6px;
+        width: 310px;
+        height: 230px;
+        margin: 15px 2px;
       }
 
 
   .mobile {
    display: none;
  }
+
+ a.link-1 {
+   font-size: 30px;
+   margin-left: 30px;
+
+ }
+
+ footer.footer-distributed {
+  height: 205px;
+ }
+
+ .footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 65px;
+  background-color: #fcd5ca;
+  border-radius: 2px;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 7px;
+  margin-right: 7px;
+  transition: all 0.25s;
+}
+
+.footnote {
+  /* margin: 0 auto; */
+  text-align: center;
+  margin-top: 80px;
+  color: white;
+}
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  margin-left: 26px;
+  margin-right: 26px;
+  max-width: 260px;
+}
+
 }
